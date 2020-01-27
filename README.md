@@ -1,2 +1,2 @@
-# Hacker-Rank
+# Algorithms Practice
 Hacker Rank algorithms

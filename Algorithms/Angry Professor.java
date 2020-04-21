@@ -20,9 +20,9 @@ public static void main(String[] args) {
             if(tamp<=0)
                 count++;
             }
-            if(count>=k)
+        if(count>=k)
             System.out.println("NO");
-            else
+        else
             System.out.println("YES");
         }
     }

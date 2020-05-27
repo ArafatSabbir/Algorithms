@@ -1,0 +1,13 @@
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.exe
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.deps.json
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.runtimeconfig.json
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.runtimeconfig.dev.json
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.dll
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.pdb
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.csprojAssemblyReference.cache
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.csproj.CoreCompileInputs.cache
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.AssemblyInfoInputs.cache
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.AssemblyInfo.cs
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.dll
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.pdb
+C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.genruntimeconfig.cache

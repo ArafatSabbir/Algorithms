@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Compile Remove="MigratoryBirds.cs" />
+    <Compile Remove="SequenceEquation.cs" />
   </ItemGroup>
 
 </Project>

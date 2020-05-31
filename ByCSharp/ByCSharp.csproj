@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AppendAndDelete.cs" />
     <Compile Remove="MigratoryBirds.cs" />
     <Compile Remove="SequenceEquation.cs" />
   </ItemGroup>

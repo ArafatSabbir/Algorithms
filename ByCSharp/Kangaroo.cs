@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using static System.Console;
 
@@ -12,7 +12,24 @@ namespace ByCSharp
 
         static string kangaroo(int x1, int v1, int x2, int v2)
         {
-            if (x2 > x1 && v2 > v1)
+            if(v2>=v1 && x1!=x2)           //all test case passed
+            {
+                return "NO";
+       
+            }
+            else
+            {
+                 float x = (float)(x2-x1)/(v1-v2);
+
+                if( floor(x) == x )
+                     return "YES";
+                 else
+                    return "NO";
+       
+        }
+            
+            
+            /*if (x2 > x1 && v2 > v1)
             {
                 return "NO";
             }
@@ -29,7 +46,7 @@ namespace ByCSharp
 
                 }
 
-            }
+            }*/
 
 
         }

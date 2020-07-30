@@ -1,2 +1,1 @@
-# Algorithms Practice
-Hacker Rank algorithms
+# Algorithms, Data-structure, Online Judge

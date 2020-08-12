@@ -1,5 +1,5 @@
-# Runtime: 64 ms, faster than 69.30%
-# Memory Usage: 14 MB, less than 34.91%
+# Runtime: 60 ms, faster than 85.31%
+# Memory Usage: 13.9 MB, less than 78.29%
 
 class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
@@ -7,8 +7,6 @@ class Solution:
         l2 = nums[n:]
         
         fn = list()
-        print(l1)
-        print(l2)
         for i,j in zip(l1,l2):
             fn.append(i)
             fn.append(j)

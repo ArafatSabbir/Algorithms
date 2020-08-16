@@ -13,3 +13,18 @@ class Solution:
             r.append(count)
             
         return r
+
+    
+  # Runtime: 408 ms, faster than 32.00%   
+
+  class Solution:
+    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+        r = []
+        for i ,v1 in enumerate(nums):
+            count = 0
+            for j ,v2 in enumerate(nums):
+                if v1 > v2:
+                    count+=1
+            r.append(count)
+            
+        return r

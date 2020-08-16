@@ -13,8 +13,8 @@ class Solution:
                 
         return fn
 
-# Runtime: 36 ms, faster than 82.66%
-# Memory Usage: 14.1 MB, less than 5.01%
+# Runtime: 32 ms, faster than 94.50%
+# Memory Usage: 13.8 MB, less than 53.11%
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         mx = max(candies)

@@ -11,3 +11,16 @@ class Solution:
             y.append('[.]')
         y.append(x[-1])
         return (''.join(map(str, y)))
+    
+    
+# Runtime: 20 ms, faster than 98.83%
+# Memory Usage: 13.8 MB, less than 72.42%
+class Solution:
+    def defangIPaddr(self, address: str) -> str:
+        x = address.split(".")
+        y = []
+        for i in range(len(x)-1):
+            y.append(x[i])
+            y.append('[.]')
+        y.append(x[-1])
+        return (''.join(map(str, y)))

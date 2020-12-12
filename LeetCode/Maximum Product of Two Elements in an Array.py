@@ -11,3 +11,12 @@ class Solution:
                 max_product = max(max_product,(numbers[first]-1) * (numbers[second]-1))
 
         return max_product
+    
+    
+# Runtime: 52 ms, faster than 47.24% of Python3 online submissions for Maximum Product of Two Elements in an Array.
+# Memory Usage: 14.4 MB, less than 18.01% of Python3 online submissions for Maximum Product of Two Elements in an Array.   
+    
+class Solution:
+    def maxProduct(self, numbers: List[int]) -> int:
+        numbers.sort()
+        return (numbers[-1]-1)*(numbers[-2]-1)

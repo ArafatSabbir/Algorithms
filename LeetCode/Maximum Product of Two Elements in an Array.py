@@ -20,3 +20,21 @@ class Solution:
     def maxProduct(self, numbers: List[int]) -> int:
         numbers.sort()
         return (numbers[-1]-1)*(numbers[-2]-1)
+    
+    
+    
+# Runtime: 40 ms, faster than 98.25% of Python3 online submissions for Maximum Product of Two Elements in an Array.
+# Memory Usage: 14.5 MB, less than 18.01% of Python3 online submissions for Maximum Product of Two Elements in an Array.
+
+
+
+class Solution:
+    def maxProduct(self, nums: List[int]) -> int:
+        f = s = -math.inf
+        for num in nums:
+            if num >= f:
+                s = f
+                f = num
+            elif num > s:
+                s = num
+        return (f - 1) * (s - 1)

@@ -34,3 +34,17 @@ public class Solution {
         
     }
 }
+
+
+//// v2
+
+public class Solution {
+    public int CountConsistentStrings(string allowed, string[] words) {
+        bool[] letters = new bool[26];
+        foreach (var l in allowed)
+            letters[l - 'a'] = true;
+
+        return words.Count(w => w.All(c => letters[c - 'a']));
+        
+    }
+}

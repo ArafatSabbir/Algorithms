@@ -1,4 +1,4 @@
-// using link
+// using linq
 
 public class Solution {
     public string ReverseWords(string s) {

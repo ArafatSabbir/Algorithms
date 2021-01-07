@@ -1,13 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>ByCSharp.Fibonacci</StartupObject>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="AppendAndDelete.cs" />
+    <Compile Remove="Fibonacci.cs" />
     <Compile Remove="Kangaroo.cs" />
     <Compile Remove="MigratoryBirds.cs" />
     <Compile Remove="SequenceEquation.cs" />

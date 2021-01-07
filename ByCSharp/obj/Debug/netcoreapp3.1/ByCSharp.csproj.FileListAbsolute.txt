@@ -11,3 +11,16 @@ C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.Asse
 C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.dll
 C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.pdb
 C:\Users\arafa\Desktop\Algorithms\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.genruntimeconfig.cache
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.exe
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.deps.json
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.runtimeconfig.json
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.runtimeconfig.dev.json
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.dll
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\bin\Debug\netcoreapp3.1\ByCSharp.pdb
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.csprojAssemblyReference.cache
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.AssemblyInfoInputs.cache
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.AssemblyInfo.cs
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.csproj.CoreCompileInputs.cache
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.dll
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.pdb
+C:\Users\sabbi\Desktop\GitHub\Problem-Solving\ByCSharp\obj\Debug\netcoreapp3.1\ByCSharp.genruntimeconfig.cache

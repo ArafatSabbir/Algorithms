@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Compile Remove="AppendAndDelete.cs" />
+    <Compile Remove="Factorial.cs" />
     <Compile Remove="Fibonacci.cs" />
     <Compile Remove="Kangaroo.cs" />
     <Compile Remove="MigratoryBirds.cs" />

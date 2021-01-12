@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ByCSharp
@@ -9,7 +10,7 @@ namespace ByCSharp
         static void Main(string[] args)
         {
             int n = Int32.Parse(Console.ReadLine());
-            Console.WriteLine(sumOfDisit(n));
+            Console.WriteLine(sumOfDisitByList(n));
         }
 
         static int sumOfDisit(int num)
@@ -24,6 +25,11 @@ namespace ByCSharp
             }
 
             return sum;
+        }
+
+        static int sumOfDisitByList(int num)
+        {
+            return num.ToString().Sum(c => c - '0');
         }
     }
 }

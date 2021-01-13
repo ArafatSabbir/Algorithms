@@ -13,6 +13,7 @@
     <Compile Remove="Kangaroo.cs" />
     <Compile Remove="MigratoryBirds.cs" />
     <Compile Remove="SequenceEquation.cs" />
+    <Compile Remove="SumOfDigits.cs" />
   </ItemGroup>
 
 </Project>

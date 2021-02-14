@@ -12,8 +12,10 @@
     <Compile Remove="Fibonacci.cs" />
     <Compile Remove="Kangaroo.cs" />
     <Compile Remove="MigratoryBirds.cs" />
+    <Compile Remove="Self Dividing Numbers.cs" />
     <Compile Remove="SequenceEquation.cs" />
     <Compile Remove="SumOfDigits.cs" />
+    <Compile Remove="SumOfnNaturalNum.cs" />
   </ItemGroup>
 
 </Project>

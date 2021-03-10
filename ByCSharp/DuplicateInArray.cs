@@ -24,5 +24,22 @@ namespace ByCSharp
             return res;
 
         }
+
+        public IList<int> FindDuplicates2(int[] nums)
+        {
+            var set = new HashSet<int>();
+            var result = new List<int>();
+
+            foreach (var num in nums)
+            {
+                if (set.Contains(num))
+                    result.Add(num);
+
+                set.Add(num);
+            }
+
+            return result;
+        }
+
     }
 }

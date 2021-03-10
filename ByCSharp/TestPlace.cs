@@ -2,20 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Channels;
 
 namespace ByCSharp
 {
-    class TestPlace
+    public class TestPlace
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            string s1 = "bdca";
-            List<char> sw1 = s1.ToCharArray().ToList().Sort();
-            foreach (var i in s1)
-            {
-                Console.WriteLine(i);
-            }
+            int[] nums = {3, 2, 4, 5, 8, 9, 10};
+            Console.WriteLine(ConsecutiveTriplets.TripletsCount(nums));
 
-        }
+    }
+
     }
 }

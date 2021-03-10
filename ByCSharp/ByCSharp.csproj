@@ -9,11 +9,16 @@
   <ItemGroup>
     <Compile Remove="AppendAndDelete.cs" />
     <Compile Remove="Factorial.cs" />
+    <Compile Remove="FactorOfaGivenNumber.cs" />
     <Compile Remove="Fibonacci.cs" />
     <Compile Remove="Kangaroo.cs" />
+    <Compile Remove="LeapYear.cs" />
     <Compile Remove="MigratoryBirds.cs" />
+    <Compile Remove="ReverseANumber.cs" />
     <Compile Remove="Self Dividing Numbers.cs" />
     <Compile Remove="SequenceEquation.cs" />
+    <Compile Remove="SingleNumber.cs" />
+    <Compile Remove="SubSet.cs" />
     <Compile Remove="SumOfDigits.cs" />
     <Compile Remove="SumOfnNaturalNum.cs" />
     <Compile Remove="SumOfUniqueNums.cs" />

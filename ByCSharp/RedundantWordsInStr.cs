@@ -15,11 +15,11 @@ namespace ByCSharp
             foreach (var word in words)
             {
                 if (set.Contains(word))
+                {
                     result.Add(word);
-
+                }
                 set.Add(word);
             }
-
             return result;
         }
     }

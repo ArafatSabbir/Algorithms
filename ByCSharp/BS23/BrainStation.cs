@@ -8,21 +8,21 @@ namespace ByCSharp.BS23
 {
     class BrainStation
     {
-        public static void Main(string[] args)
-        {
-            try
-            {
-                int t = Int32.Parse(Console.ReadLine());
-                int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-                bs(arr);
+        //public static void Main(string[] args)
+        //{
+        //    try
+        //    {
+        //        int t = Int32.Parse(Console.ReadLine());
+        //        int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
+        //        bs(arr);
 
-            }
-            catch (Exception)
-            {
-            }
+        //    }
+        //    catch (Exception)
+        //    {
+        //    }
 
             
-        }
+        //}
 
         public static void bs(int[] arr)
         {

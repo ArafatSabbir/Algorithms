@@ -6,23 +6,29 @@ namespace ByCSharp.DP
 {
     class StaircaseProblem
     {
-        static void Main(string[] args)
-        {
-            int t = Int32.Parse(Console.ReadLine());
-            for (int i = 0; i < t; i++)
-            {
-                var o = new StaircaseProblem();
-                int n = Int32.Parse(Console.ReadLine());
-                Console.WriteLine(o.Stair(n));
-            }
+        //static void Main(string[] args)
+        //{
+        //    try
+        //    {
+        //        int t = Int32.Parse(Console.ReadLine());
+        //        for (int i = 0; i < t; i++)
+        //        {
+        //            var o = new StaircaseProblem();
+        //            int n = Int32.Parse(Console.ReadLine());
+        //            Console.WriteLine(o.Stair(n));
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
+        //    }
 
-        }
+        //}
 
 
         int Stair(int n)
         {
-            int [] dp = new int[1000001];
-            for (int i=0;i< 1000001;i++)
+            long [] dp = new long[100001];
+            for (int i=0;i< 100001; i++)
             {
                 dp[i] = -1;
             }
@@ -38,7 +44,7 @@ namespace ByCSharp.DP
 
             if (dp[n] != -1)
             {
-                return dp[n];
+                Convert.ToInt32(dp[n]);
             }
 
             int m = 1000000007;
@@ -51,9 +57,13 @@ namespace ByCSharp.DP
             }
 
 
-            return dp[n];
+            return Convert.ToInt32(dp[n]);
         }
 
+
+
+        /// recursion
+        /// 
         //int Stair(int n)
         //{
         //    if (n==1 || n==2 )

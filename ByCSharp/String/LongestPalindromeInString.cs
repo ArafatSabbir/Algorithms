@@ -41,10 +41,7 @@ namespace ByCSharp.String
                 }
 
             }
-
             return res;
-
-
         }
 
         bool IsPalindrome(string p)

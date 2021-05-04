@@ -11,6 +11,7 @@
     <Compile Remove="Factorial.cs" />
     <Compile Remove="FactorOfaGivenNumber.cs" />
     <Compile Remove="Fibonacci.cs" />
+    <Compile Remove="ICPC_DHAKA_Preli_2020\covid_19_j.cs" />
     <Compile Remove="Kangaroo.cs" />
     <Compile Remove="LeapYear.cs" />
     <Compile Remove="MigratoryBirds.cs" />
@@ -22,6 +23,10 @@
     <Compile Remove="SumOfDigits.cs" />
     <Compile Remove="SumOfnNaturalNum.cs" />
     <Compile Remove="SumOfUniqueNums.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ICPC_DHAKA_Preli_2020\" />
   </ItemGroup>
 
 </Project>

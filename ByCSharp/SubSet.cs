@@ -7,22 +7,22 @@ namespace ByCSharp
 {
     class SubSet
     {
-        static void Main(string[] args)
-        {
-            int[] nums = {1, 2, 3, 4, 5};
-            var res = Subsets(nums);
+        //static void Main(string[] args)
+        //{
+        //    int[] nums = {1, 2, 3, 4, 5};
+        //    var res = Subsets(nums);
 
-            foreach (var i in res)
-            {
-                for (int j = 0;j<i.Count;j++)
-                {
-                    Console.Write((i[j]));
-                }
+        //    foreach (var i in res)
+        //    {
+        //        for (int j = 0;j<i.Count;j++)
+        //        {
+        //            Console.Write((i[j]));
+        //        }
 
-                Console.WriteLine();
-            }
+        //        Console.WriteLine();
+        //    }
 
-        }
+        //}
 
         public static IList<IList<int>> Subsets(int[] nums)
         {

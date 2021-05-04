@@ -21,10 +21,10 @@ namespace ByCSharp
             }
         }
 
-        public static void Main(string[] args)
-        {
-            TowerOfHanoi t = new TowerOfHanoi();
-            t.tower(5,'a','b','c');
-        }
+        //public static void Main(string[] args)
+        //{
+        //    TowerOfHanoi t = new TowerOfHanoi();
+        //    t.tower(5,'a','b','c');
+        //}
     }
 }

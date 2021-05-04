@@ -36,16 +36,12 @@ namespace ByCSharp.Tree
                     if (node.right != null)
                         queue.Enqueue(node.right);
                 }
-
                 if (!isLeaf)
                 {
                     sum = 0;
                 }
-                   
             }
-
             return sum;
-
         }
     }
 }
